@@ -7,6 +7,8 @@ with the library data.
 They also provide a shorter versions of the file for developing or exploratory purposes, where the size is
 around 140MB of data instead of ~20GB of the original/full file (referring to the “complete dump”).
 à https://s3-eu-west-1.amazonaws.com/csparkdata/ol_cdump.json
+
+
 Starting with the short version of this file, pls. download it to your local laptop:
 wget --continue https://s3-eu-west-1.amazonaws.com/csparkdata/ol_cdump.json -O /tmp/ol_cdump.json
 
