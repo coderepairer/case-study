@@ -26,7 +26,7 @@ def query2_solution(spark, cleaned_df):
     cleaned_df.orderBy(col("number_of_pages").desc()).limit(1).show(truncate=False)
 
 
-def query3_solution(spark, cleaned_df, authors_df):
+def query3_solution(spark, cleaned_df):
     """
     Find the Top 5 authors with most written books (assuming author in first position in the array, "key" field and
     each row is a different book)
